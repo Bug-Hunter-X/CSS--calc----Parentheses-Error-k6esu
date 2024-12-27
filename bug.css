@@ -1,0 +1,1 @@
+The CSS property `calc()` is used to perform calculations, but there is a common error where the calculation is not enclosed in parentheses correctly. This is especially true when using multiple operations.  For example, `width: calc(100% - 20px)` is valid, but `width: calc100% - 20px` is invalid.
