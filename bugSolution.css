@@ -1,0 +1,13 @@
+The correct way to use the `calc()` function is to always enclose the entire calculation within parentheses. For instance, if you want to calculate a width that is 100% of the container minus 20px, the correct syntax is:
+
+```css
+width: calc(100% - 20px);
+```
+
+Incorrect usage would be:
+
+```css
+width: calc 100% - 20px; /* Incorrect */
+```
+
+This applies to more complex calculations as well. Always ensure that all operations are within the parentheses.
